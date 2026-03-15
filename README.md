@@ -1,2 +1,0 @@
-# Computacion_Ubicua
-Optativa
