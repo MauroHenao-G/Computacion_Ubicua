@@ -1,0 +1,13 @@
+void setup(){
+  pinMode(2, INPUT);        //pin 2 como entrada
+  pinMode(3, OUTPUT);        // pin 3 salida
+}
+
+void loop(){
+  if (digitalRead(2) == HIGH){      //Evaluo si la entrada esta a nivel alto
+    digitalWrite(3, HIGH);          // Enciende LED 
+  }
+  else {
+    digitalWrite(3, LOW);           // apago LED 
+  }
+}
